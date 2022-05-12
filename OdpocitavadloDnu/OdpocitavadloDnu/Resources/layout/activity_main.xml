@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#DEFF77"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDays" />
+    
+
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:paddingTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:textSize="20sp"
+           android:textStyle="bold"
+            android:layout_marginLeft="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Mezinárodní den dětí"
+            android:id="@+id/radioButtonKidsDay" />
+        <RadioButton
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halloween"
+            android:id="@+id/radioButtonHalloween" />
+        <RadioButton
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vánoce"
+            android:id="@+id/radioButtonChristmas" />
+        <TextView
+            android:text="Daniel"
+            android:paddingTop="20px"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#1932BA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+            <RadioButton
+                android:text="Narozeniny"
+                android:textSize="20sp"
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonDanielBirthday" />
+
+            <RadioButton
+                android:text="Svátek"
+                android:textSize="20sp"
+                android:layout_marginLeft="450px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonDanielNameDay" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Matěj"
+            android:paddingTop="20px"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#1932BA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout2">
+            <RadioButton
+                android:text="Narozeniny"
+                android:textSize="20sp"
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonMatejBirthday" />
+
+            <RadioButton
+                android:text="Svátek"
+                android:textSize="20sp"
+                android:layout_marginLeft="450px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonMatejNameDay" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Jiřík"
+            android:paddingTop="20px"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#1932BA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout3">
+            <RadioButton
+                android:text="Narozeniny"
+                android:textSize="20sp"
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonJiriBirthday" />
+
+            <RadioButton
+                android:text="Svátek"
+                android:textSize="20sp"
+                android:layout_marginLeft="450px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonJiriNameDay" />
+
+        </RelativeLayout>
+
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputEditText1" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50px"
+        android:background="#1932BA"
+        android:id="@+id/buttonCountDays" />
+    <Button
+        android:text="PŘEPOČÍTEJ NA TÝDNY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50px"
+        android:background="#1932BA"
+        android:id="@+id/buttonCountWeeks" />
+    <Button
+        android:text="PŘEPOČÍTEJ NA MĚSÍCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50px"
+        android:background="#1932BA"
+        android:id="@+id/buttonCountMonths" />
+
+
+
+</LinearLayout>
