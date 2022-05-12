@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Ostrava"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textViewOstrava" />   
+     <TextView
+        android:text="Karviná"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textViewKarvina" />
+        <TextView
+        android:text="Havířov"
+        android:background="@android:color/holo_green_light"     
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textViewHavirov" />
+    <TextView
+        android:text="Bohumín"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textViewBohumin" />
+    <TextView
+        android:text="Český Těšín"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textViewCeskyTesin" />
+    <TextView
+        android:text="Madrid"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="30px"
+        android:id="@+id/textViewMadrid" />
+     <TextView
+        android:text="Helsinki"
+        android:background="@android:color/holo_green_light"
+        
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textViewHelsinki" />
+    <TextView
+        android:text="Sydney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginBottom="30px"
+        android:id="@+id/textViewSydney" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+       android:textSize="20sp"
+        android:minWidth="25px"
+        android:minHeight="25px" 
+        android:gravity="center_horizontal"
+        android:hint="Zadej své město 
+        (malými písmeny a bez diakritiky)"
+        android:id="@+id/textInputEditText1" />
+    <Button
+        android:text="NAJDI MÉ MĚSTO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOwnCity" />
+
+</LinearLayout>

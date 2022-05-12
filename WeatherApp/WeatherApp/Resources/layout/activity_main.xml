@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout1">
+
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageViewPicture"
+        android:contentDescription="Weather picture" />
+    <TextView
+        android:text="--"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="10dp"
+        android:textSize="30sp"
+        android:id="@+id/textViewCity" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Počasí:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewWeather" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Oblačnost:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView8" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewCloudcover" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Teplota:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView3" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewTemperature" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Vítr:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView4" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewWind" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Vlhkost:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView5" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewHuminidy" />
+    </RelativeLayout>
+   <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tlak:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView9" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewPressure" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Aktuální čas:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/textView6" />
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:id="@+id/textViewLocalTime" />
+    </RelativeLayout>
+
+    <Button
+        android:text="VYBER MĚSTO"
+        android:layout_marginVertical="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/buttonChangeCity" />
+    
+
+</LinearLayout>
